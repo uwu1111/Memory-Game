@@ -1,0 +1,3 @@
+﻿  ConsoleApplication2.cpp
+C:\C++\CPP_Mem\Memory.h(34,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  ConsoleApplication2.vcxproj -> C:\C++\CPP_Mem\x64\Debug\ConsoleApplication2.exe
