@@ -130,7 +130,7 @@
     <ClCompile Include="ConsoleApplication2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Memory.h" />
+    <ClInclude Include="library.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
