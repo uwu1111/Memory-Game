@@ -1,8 +1,10 @@
 ﻿  ConsoleApplication2.cpp
-C:\Users\Fozik\Desktop\Projectt-master\library.h(41,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Users\Fozik\Desktop\Projectt-master\ConsoleApplication2.cpp(35,21): warning C4244: инициализация: преобразование "_Rep" в "float", возможна потеря данных
-C:\Users\Fozik\Desktop\Projectt-master\ConsoleApplication2.cpp(35,21): warning C4244:         with
-C:\Users\Fozik\Desktop\Projectt-master\ConsoleApplication2.cpp(35,21): warning C4244:         [
-C:\Users\Fozik\Desktop\Projectt-master\ConsoleApplication2.cpp(35,21): warning C4244:             _Rep=__int64
-C:\Users\Fozik\Desktop\Projectt-master\ConsoleApplication2.cpp(35,21): warning C4244:         ]
-  ConsoleApplication2.vcxproj -> C:\Users\Fozik\Desktop\Projectt-master\x64\Debug\ConsoleApplication2.exe
+C:\Users\Elizaveta\Desktop\u\Memory-Game\library.h(40,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  (компиляция исходного файла "ConsoleApplication2.cpp")
+  
+C:\Users\Elizaveta\Desktop\u\Memory-Game\ConsoleApplication2.cpp(35,21): warning C4244: инициализация: преобразование "_Rep" в "float", возможна потеря данных
+C:\Users\Elizaveta\Desktop\u\Memory-Game\ConsoleApplication2.cpp(35,21): warning C4244:         with
+C:\Users\Elizaveta\Desktop\u\Memory-Game\ConsoleApplication2.cpp(35,21): warning C4244:         [
+C:\Users\Elizaveta\Desktop\u\Memory-Game\ConsoleApplication2.cpp(35,21): warning C4244:             _Rep=__int64
+C:\Users\Elizaveta\Desktop\u\Memory-Game\ConsoleApplication2.cpp(35,21): warning C4244:         ]
+  ConsoleApplication2.vcxproj -> C:\Users\Elizaveta\Desktop\u\Memory-Game\x64\Debug\ConsoleApplication2.exe

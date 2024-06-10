@@ -6,7 +6,6 @@
 #include <thread>
 
 using namespace std;
-using namespace std::chrono;
 
 char symbols[18]{'!','%','?','\\','/','+','*','$','@','#','&',')','<','>',':',';','-','_'};
 int counter = 0;
@@ -52,16 +51,15 @@ void MemoryCreator(int index)
 				arr[i][j] = symbols[counter];
 				arr[i][j + 1] = symbols[counter];
 				counter++;
-				//cout << arr[i][j] << " ";
+				
 			}
-			//cout << endl;
 		};
 		int card1row, card1col;
 		int card2row, card2col;
 		switch (index)
 		{
 		case 4:
-			for (int i = 0; i < 25; i++)
+			for (int i = 0; i < 100; i++)
 			{
 				card1col = rand() % 4;
 				card1row = rand() % 4;
@@ -74,7 +72,7 @@ void MemoryCreator(int index)
 			}
 			break;
 		case 6:
-			for (int i = 0; i < 25; i++)
+			for (int i = 0; i < 100; i++)
 			{
 				card1col = rand() % 6;
 				card1row = rand() % 6;
@@ -92,6 +90,7 @@ void MemoryCreator(int index)
 	else
 	{
 		cout << "Error! Number Cant Be Divined By 2!";
+		exit(1);
 	}
 }
 void UpCard(int index)
